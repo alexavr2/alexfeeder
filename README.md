@@ -86,3 +86,22 @@ For each reel you'll need this two files:
 -reel_cap - second flat side of the reel, same for any tape width
 
 DWG files contain all sources. Please dont't blame me for the quality of the sources and for using DWG for 3D modeling :)
+
+# Credits
+
+## SMD-TAXI
+The main idea of this feeder is taken out of the SMD-Taxi machine (see video: https://www.youtube.com/watch?v=BfcFKsf5NEs and some more photos here: http://www.smd-taxi.ru/features ).
+
+## OpenPNP
+
+This small project could newer be done without OpenPNP project and community
+http://openpnp.org
+
+# Contacts
+
+Feel free to email me alex [at] sai dot msu dot ru
+
+You may also find some more information about this feeder in topic on openpnpn goole groops:
+https://groups.google.com/forum/#!topic/openpnp/B90C2JUtN30%5B1-25%5D
+
+
