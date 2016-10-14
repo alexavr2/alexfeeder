@@ -94,7 +94,7 @@ The main idea of this feeder is taken out of the SMD-Taxi machine (see video: ht
 
 ## OpenPNP
 
-This small project could newer be done without OpenPNP project and community
+This small project could never be done without OpenPNP project and community
 http://openpnp.org
 
 # Contacts
