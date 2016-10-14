@@ -12,16 +12,23 @@ The best way to see how it works is to see a video: https://youtu.be/IDiFrP3rNAg
 1)Width=tape width+2mm (actually this is 1mm more than tape reel and gives ~100% space usage efficiency).
 
 2)Fully 3D printable(or milled). Needs a few M2 screws and two springs to assemble.
+
 3)Feeders are easy to stack into any configuration and are easily adaptable to different width.
+
 4)SMT tape thickness up to 5mm, no need to tune.
+
 5)Precision and repeatability does not depend on precision of actuator (head) move. The tape is always moved to one fixed position.
+
 6)Costs about 1-2$ if you have a 3D printer.
 
 ## Cons
 
 1)The design is machine dependeble. You may need to adjust it for your machine sizes, mount, etc.
+
 2)It is not really convinient and fast to change a tape in the feeder and the feeder itself is fixed to machine.
+
 3)Does not support tapes thicker than 4-5mm in current version.
+
 4)Need to be adapted for tapes wider than 16mm.
 
 ## Flat spring
@@ -52,6 +59,7 @@ The entire assembly consists of feeders themselves, the side cover for the most 
 There are few possibilities for film pulling.
 
 1) Film pulling system may be replaced just by some kind of weight pulling the film down.
+
 2) The film is pulled by a reel. All the reels are on one rotating axis. This axis rotates when each feed operation occurs, no matter of which feeder. So for every feeder except active one the reels will just slip on the axis. On the active feeder the reel will rotate pulling protective film off the smt tape, because friction force is higher that film peel off force.
 
 The whole assembly of reels and feeders:
@@ -73,18 +81,29 @@ https://www.youtube.com/watch?v=BvcR2atKbBQ
 Currently you can find them in alex_feeder_1.0.zip archive.
 
 For each feeder you'll need this four files:
+
 -Xmm_body - the main body of the feeder for X width SMT tape
+
 -Xmm_tip - the tip that pushes the tape for X width SMT tape
+
 -arm - vertical arm that is being pushed by machine head, same for any tape width
+
 -tip_connector - a small piece to connect arm and tip, same for any tape width
 
+
 You'll also probably need:
+
 -side_cap - a flat side cover for the most right feeder
+
 -extrusion_holder - a clamp for attaching the whole feeder assembly to 2040 or 4040 extrusion by M5 screws. At least two pieces, one at each side of feeder assembly.
 
+
 For each reel you'll need this two files:
+
 -Xmm_reel - the main body of the reel for X width SMT tape
+
 -reel_cap - second flat side of the reel, same for any tape width
+
 
 DWG files contain all sources. Please dont't blame me for the quality of the sources and for using DWG for 3D modeling :)
 
