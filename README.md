@@ -5,11 +5,12 @@ This page describes a simple fully 3D printable semi-automatic SMT part feeder f
 
 ![alt text](https://raw.githubusercontent.com/alexavr2/alexfeeder/master/feeder.jpg "alexfeeder")
 
-The best way to see now it works is to see a video: https://youtu.be/IDiFrP3rNAg
+The best way to see how it works is to see a video: https://youtu.be/IDiFrP3rNAg
 
 ## Features
 
 1)Width=tape width+2mm (actually this is 1mm more than tape reel and gives ~100% space usage efficiency).
+
 2)Fully 3D printable(or milled). Needs a few M2 screws and two springs to assemble.
 3)Feeders are easy to stack into any configuration and are easily adaptable to different width.
 4)SMT tape thickness up to 5mm, no need to tune.
